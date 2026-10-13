@@ -1,0 +1,148 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#fff8f1">
+  <meta name="description" content="Privacy policy for Tomatune, an offline Android focus timer.">
+  <title>Privacy Policy — Tomatune</title>
+  <style>
+    :root {
+      color-scheme: light;
+      --ink: #332b38;
+      --muted: #706878;
+      --paper: #fff8f1;
+      --card: #fffdf9;
+      --line: #eee3d8;
+      --tomato: #cb534d;
+      --tomato-dark: #913b3a;
+      --mint: #e9f4ea;
+      --mint-ink: #42644e;
+      --gold: #f4dfac;
+      --shadow: 0 20px 60px rgb(68 43 43 / 9%);
+    }
+    * { box-sizing: border-box; }
+    html { scroll-behavior: smooth; }
+    body {
+      margin: 0;
+      background: var(--paper);
+      color: var(--ink);
+      font: 16px/1.7 ui-rounded, "SF Pro Rounded", "Segoe UI", system-ui, sans-serif;
+    }
+    a { color: var(--tomato-dark); text-underline-offset: 3px; }
+    a:focus-visible { outline: 3px solid var(--tomato); outline-offset: 4px; border-radius: 3px; }
+    .skip-link { position: absolute; left: -9999px; top: 0; }
+    .skip-link:focus { left: 1rem; top: 1rem; z-index: 2; background: white; padding: .6rem 1rem; }
+    .wrap { width: min(100% - 32px, 840px); margin: 0 auto; padding: 36px 0 56px; }
+    .topline { display: flex; align-items: center; justify-content: space-between; gap: 16px; margin-bottom: 28px; }
+    .brand { display: inline-flex; align-items: center; gap: 11px; color: var(--ink); font-weight: 800; text-decoration: none; letter-spacing: -.03em; }
+    .tomato { display: grid; place-items: center; width: 38px; height: 38px; border-radius: 14px 14px 17px 17px; background: var(--tomato); color: white; font-size: 21px; box-shadow: inset 0 -4px 0 rgb(102 33 38 / 17%); }
+    .label { color: var(--muted); font-size: 13px; font-weight: 700; letter-spacing: .12em; text-transform: uppercase; }
+    header { padding: 42px clamp(24px, 6vw, 58px); background: var(--card); border: 1px solid var(--line); border-radius: 28px; box-shadow: var(--shadow); }
+    .eyebrow { display: inline-flex; align-items: center; gap: 8px; padding: 6px 12px; border-radius: 999px; background: var(--mint); color: var(--mint-ink); font-size: 13px; font-weight: 750; }
+    .eyebrow::before { content: ""; width: 8px; height: 8px; border-radius: 50%; background: #75a17b; }
+    h1 { margin: 18px 0 12px; font-size: clamp(2.4rem, 7vw, 4.2rem); line-height: 1.06; letter-spacing: -.07em; }
+    .lead { max-width: 650px; margin: 0; color: var(--muted); font-size: clamp(1.05rem, 2.5vw, 1.25rem); }
+    .updated { display: inline-block; margin-top: 22px; color: var(--muted); font-size: 14px; }
+    .summary { display: grid; grid-template-columns: 42px 1fr; gap: 14px; margin: 20px 0 28px; padding: 20px; border: 1px solid #dbe9d9; border-radius: 20px; background: var(--mint); }
+    .summary-icon { display: grid; place-items: center; width: 42px; height: 42px; border-radius: 14px; background: white; font-size: 20px; }
+    .summary p { margin: 0; color: #385441; }
+    main { display: grid; gap: 16px; }
+    section { padding: 26px clamp(22px, 5vw, 38px); background: var(--card); border: 1px solid var(--line); border-radius: 22px; }
+    h2 { margin: 0 0 10px; font-size: 1.3rem; line-height: 1.35; letter-spacing: -.035em; }
+    p { margin: 10px 0 0; }
+    ul { margin: 10px 0 0; padding-left: 1.3rem; }
+    li { margin: 5px 0; padding-left: 3px; }
+    li::marker { color: var(--tomato); }
+    .note { padding: 14px 16px; border-left: 3px solid var(--tomato); border-radius: 0 12px 12px 0; background: #fff3eb; }
+    footer { display: flex; flex-wrap: wrap; justify-content: space-between; gap: 12px; padding: 24px 4px 0; color: var(--muted); font-size: 14px; }
+    @media (max-width: 540px) {
+      .wrap { width: min(100% - 22px, 840px); padding-top: 18px; }
+      .topline { margin: 0 4px 16px; }
+      header { padding: 31px 23px; border-radius: 23px; }
+      section { padding: 22px; border-radius: 19px; }
+      .summary { grid-template-columns: 1fr; }
+      footer { padding-inline: 5px; }
+    }
+    @media (prefers-reduced-motion: reduce) { html { scroll-behavior: auto; } }
+  </style>
+</head>
+<body>
+  <a class="skip-link" href="#content">Skip to policy</a>
+  <div class="wrap">
+    <div class="topline">
+      <a class="brand" href="#top" aria-label="Tomatune privacy policy home"><span class="tomato" aria-hidden="true">🍅</span><span>Tomatune</span></a>
+      <span class="label">Privacy, plainly</span>
+    </div>
+
+    <header id="top">
+      <span class="eyebrow">Offline by design</span>
+      <h1>Privacy Policy</h1>
+      <p class="lead">Tomatune is an Android focus timer. Your focus history, tasks, intentions, and notes stay in the app on your device. Tomatune does not send them to the developer or to a server.</p>
+      <time class="updated" datetime="2026-10-14">Last updated October 14, 2026</time>
+    </header>
+
+    <div class="summary" role="note">
+      <span class="summary-icon" aria-hidden="true">🔒</span>
+      <p><strong>The short version:</strong> Tomatune has no account, analytics, ads, or crash-reporting service. Its current Android release does not request Internet access. Your data is stored locally so the timer, task list, notes, stats, and garden can work.</p>
+    </div>
+
+    <main id="content">
+      <section>
+        <h2>Who this policy covers</h2>
+        <p>This policy covers the Tomatune Android app (package <code>com.tomatune.app</code>), maintained by <a href="https://github.com/Immrpat">@Immrpat</a>. It describes the app version reviewed on the date above. It does not cover Android, your device maker, Google Play, or other services under their own control.</p>
+      </section>
+
+      <section>
+        <h2>Information stored on your device</h2>
+        <p>Tomatune stores the information needed to run and personalize the timer:</p>
+        <ul>
+          <li><strong>Focus history:</strong> session phase and times, planned and elapsed minutes, completion status, sound choice, and any task or intention attached to a focus session.</li>
+          <li><strong>Tasks and parked thoughts:</strong> task titles, estimates and completion state; note text, creation time, and whether a note is marked done. Text you enter in a task, intention, or note stays in app storage.</li>
+          <li><strong>Settings and progress:</strong> timer lengths, sound and volume preferences, daily goal, selected looks, and progress or achievement state.</li>
+          <li><strong>Timer recovery state:</strong> while a session is active, the app saves enough local state to restore it if Android stops the app process.</li>
+        </ul>
+      </section>
+
+      <section>
+        <h2>How the app uses it</h2>
+        <p>This information is used on your device to run focus and break timers, play audio bundled with the app, show notifications, associate sessions with tasks, save notes, and calculate your history and progress. Tomatune does not use it for advertising, profiling, or analytics.</p>
+      </section>
+
+      <section>
+        <h2>Information sent off your device</h2>
+        <p>The current Android release does not request the Internet permission and does not send app data to the developer or another service. The app has no sign-in, cloud sync, analytics, advertising, or crash-reporting SDK. It does not request access to your contacts, location, photos, microphone, or camera.</p>
+        <p>Tomatune can show Android notifications for the timer when you allow notifications. Android controls that permission and displays the notification. The app uses Android's foreground media playback and wake-lock facilities so a session can continue while the screen is off. These features do not upload your session data.</p>
+      </section>
+
+      <section>
+        <h2>Storage, security, and backups</h2>
+        <p>App data is kept in Android's private storage for Tomatune. The app does not operate a server containing your data. The app excludes its data from Android cloud backup. Phone-to-phone migration behavior can vary by Android version and device maker.</p>
+        <p>Keep your device and its screen lock secure. Anyone who can access your unlocked device and open Tomatune may be able to see data stored in the app.</p>
+      </section>
+
+      <section>
+        <h2>Retention and deletion</h2>
+        <p>Your local data remains on the device until you delete it or remove the app. In Tomatune, open <strong>Settings → Delete all data</strong> to remove session history, tasks, parked thoughts, saved timer state, and progress. This also ends a running focus session. Timer settings are kept. You can also clear Tomatune's storage in Android settings or uninstall the app.</p>
+        <p>Tomatune has no user accounts, so there is no account to delete and no server-side account data to request.</p>
+      </section>
+
+      <section>
+        <h2>Hosting of this policy page</h2>
+        <p>This page is served by GitHub Pages. GitHub says it logs and stores visitors' IP addresses for security purposes. That logging is performed by GitHub as the host, not by the Tomatune app. Read <a href="https://docs.github.com/en/site-policy/privacy-policies/github-general-privacy-statement" rel="noreferrer">GitHub's General Privacy Statement</a> for details. This page contains no analytics scripts or embedded third-party media.</p>
+      </section>
+
+      <section>
+        <h2>Changes and questions</h2>
+        <p>If Tomatune's data practices change, this page will be updated and the date above will change. For privacy questions, use <a href="https://github.com/Immrpat/tomatune-privacy-policy/issues">the repository's Issues page</a>.</p>
+        <p class="note"><strong>Please protect your privacy:</strong> GitHub Issues are public by default. Do not include personal, sensitive, or confidential information in an issue.</p>
+      </section>
+    </main>
+
+    <footer>
+      <span>© 2026 Tomatune · Android focus timer</span>
+      <a href="https://github.com/Immrpat/tomatune-privacy-policy">View the source on GitHub</a>
+    </footer>
+  </div>
+</body>
+</html>
